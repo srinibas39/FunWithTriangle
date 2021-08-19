@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #EFF6FF;
+  height: 31rem;
+  overflow: auto;
+}
+.container {
+}
+nav div a {
+}
+.link {
+}
+.description{
+
+padding: 1rem;
+}
+.selected {
+  color:white;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem;
+  background-color: #BFDBFE;
+  height: 7rem;
+}
+
+.footer h1 {
+}
+.section {
+  position: absolute;
+  top: 15rem;
+  left: 29rem;
+  /* overflow: auto; */
+  /* background-color: red; */
+}
+.section label {
+}
+.section input {
+}
+.footer {position: absolute;top: 34rem;width: 100%;display: flex;justify-content: space-evenly;background-color: #BFDBFE;height: 7rem;align-items: center;}
+.footer a {
+}
+.c1{
+
+
+
+margin: 1rem 1rem;
+}
+.c2{
+
+margin: 1rem 1rem;
+}
+.c3{
+  
+margin: 1rem 1rem;
+}
+.check{
+
+margin: 1rem;
+
+height: 32px;
+
+width: 73px;
+
+border: none;
+
+border-radius: 5px;
+
+background-color: #BFDBFE;
+}
+.f1{
+}
+.f2{
+}
+.f3{
+}
+.hypotenusButton{
+  margin: 1rem;
+
+height: 32px;
+
+width: 73px;
+
+border: none;
+
+border-radius: 5px;
+
+background-color: #BFDBFE;
+
+}
+.buttonArea{
+  margin: 1rem;
+
+height: 32px;
+
+width: 73px;
+
+border: none;
+
+border-radius: 5px;
+
+background-color: #BFDBFE;
+
+}
+.form{
+
+width: 40vw;
+
+height: 46vh;
+
+overflow: auto;
+}
+.submit{
+  margin: 1rem;
+  height: 32px;
+  width: 73px;
+  border: none;
+  border-radius: 5px;
+  background-color: #BFDBFE;
+  position: absolute;
+  top: 30rem;
+  left: 20rem;
+}
+.score{
+
+position: absolute;
+
+top: 22rem;
+
+left: 11rem;
+
+/* height: 100px; */
+
+/* width: 100px; */
+
+color: black;
+}
