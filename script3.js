@@ -9,8 +9,11 @@ hypotenusButton.addEventListener("click",function(e){
 
       baseValue=parseFloat(base.value);
       perpendicularValue=parseFloat(perpendicular.value);
-      let hypotenus=(Math.sqrt(Math.pow(baseValue,2)+Math.pow(perpendicularValue,2))).toFixed(2);
-      getHypotenusDiv.innerText=`Hypotenus=${hypotenus}`;
+      if(baseValue>0&&perpendicularValue>0){
+
+         let hypotenus=(Math.sqrt(Math.pow(baseValue,2)+Math.pow(perpendicularValue,2))).toFixed(2);
+         getHypotenusDiv.innerText=`Hypotenus=${hypotenus}`;
+      }
          
    }
 })

@@ -10,15 +10,19 @@ button.addEventListener("click",function(e){
         angle2Value=parseFloat(angle2.value);
         angle3Value=parseFloat(angle3.value);
 
-        if(angle1Value<180&&angle2Value<180&&angle3Value<180){
+        if(angle1Value>0&&angle2Value>0&&angle3Value>0){
 
-            
-             if(angle1Value+angle2Value+angle3Value==180){
-                 output.innerText=`Triangle is possible`;
-             }
-             else{
-                 output.innerText=`Triangle is not possible`;
-             }
+            if(angle1Value<180&&angle2Value<180&&angle3Value<180){
+    
+                
+                 if(angle1Value+angle2Value+angle3Value==180){
+                     output.innerText=`Triangle is possible`;
+                 }
+                 else{
+                     output.innerText=`Triangle is not possible`;
+                 }
+            }
         }
+
     }
 })
